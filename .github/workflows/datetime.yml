@@ -1,0 +1,21 @@
+name: Date Time Project
+
+on:
+  workflow_dispatch:
+
+jobs:
+  display-date:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Welcome Message
+        run: echo "Welcome to GitHub Actions!"
+
+      - name: Display Current Date
+        run: date
+
+      - name: Display Current Directory
+        run: pwd
+
+      - name: Display Files
+        run: ls -la
