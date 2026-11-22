@@ -5,7 +5,8 @@ on:
 
 jobs:
   display-date:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-lates
+    1st change
 
     steps:
       - name: Welcome Message
